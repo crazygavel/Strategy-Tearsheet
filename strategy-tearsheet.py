@@ -4,7 +4,7 @@ import quantstats as qs
 import numpy as np
 
 # Replace with your published CSV link
-csv_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTuyGRVZuafIk2s7moScIn5PAUcPYEyYIOOYJj54RXYUeugWmOP0iIToljSEMhHrg_Zp8Vab6YvBJDV/pub?output=csv"
+csv_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQPODlvKnIwsQyu1hNaWB80Ry1tiNtkYfWlXhXy88BUtwZsnCTG-4OigRTpmJRT-d4rbouElGtfdzOf/pub?output=csv"
 
 # Load the data into a Pandas DataFrame
 @st.cache_data(ttl=0)  # Caching har baar bypass hoga
